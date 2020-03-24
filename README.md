@@ -1,0 +1,2 @@
+# pentomino
+Proyecto para universidad
