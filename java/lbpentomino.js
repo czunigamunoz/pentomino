@@ -110,43 +110,31 @@ function colorear(f){
     for(let i=0; i<vecImg_fig.length; i++){
         switch(fig1[index][i]){
             case 1:
-                vecImg_fig[i].src = "img/rojo.png";
-                break;
+                vecImg_fig[i].src = "img/rojo.png"; break;
             case 2:
-                vecImg_fig[i].src = "img/azul_neon.jpg";
-                break;
+                vecImg_fig[i].src = "img/azul_neon.jpg"; break;
             case 3:
-                vecImg_fig[i].src = "img/amarillo.png";
-                break;
+                vecImg_fig[i].src = "img/amarillo.png"; break;
             case 4:
-                vecImg_fig[i].src = "img/azul_cielo.png";
-                break;
+                vecImg_fig[i].src = "img/azul_cielo.png"; break;
             case 5:
-                vecImg_fig[i].src = "img/cafe.png";
-                break;
+                vecImg_fig[i].src = "img/cafe.png"; break;
             case 6:
-                vecImg_fig[i].src = "img/verde.jpg";
-                break;
+                vecImg_fig[i].src = "img/verde.jpg"; break;
             case 7:
-                vecImg_fig[i].src = "img/morado.png";
-                break;
+                vecImg_fig[i].src = "img/morado.png"; break;
             case 8:
-                vecImg_fig[i].src = "img/rosado.png";
-                break;
+                vecImg_fig[i].src = "img/rosado.png"; break;
             case 9:
-                vecImg_fig[i].src = "img/azul.png";
-                break;
+                vecImg_fig[i].src = "img/azul.png"; break;
             case 10:
-                vecImg_fig[i].src = "img/naranja.png";
-                break;
+                vecImg_fig[i].src = "img/naranja.png"; break;
             case 11:
-                vecImg_fig[i].src = "img/lima.png";
-                break;
+                vecImg_fig[i].src = "img/lima.png"; break;
             case 12:
-                vecImg_fig[i].src = "img/negro.png";
-                break;
+                vecImg_fig[i].src = "img/negro.png"; break;
             default:
-                vecImg_fig[i].src = "img/blanco.png";
+                vecImg_fig[i].src = "img/blanco.png"; break;
         }
     }
 }
