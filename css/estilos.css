@@ -93,40 +93,19 @@ h1{
     color: black;
 }
 
-#juego{
-    width: 550px;
-    float: left;
-    margin: 20px 0;
-    margin-left: 50px;
-}
-
-#tablero{
-    position: absolute;
-	display: block;
-    margin-top: 0px;
-}
-
-#tablero ul img{
-	width: 35px;
-    height: 35px;
-    padding: 0;
-    margin: -2px 0.5px;
-    list-style-type: none;
-    display: inline-block;
-}
-
-#figuras{
+#drophere{
+    width: 400px;
+    height: 400px;
+    border: solid 1px;
     display: block;
-    float: right;
-    margin: 20px 0;
+    float: left;
+    margin: 50px 0 50px 50px;
+
 }
 
-#figuras ul img{
-    width: 35px;
-    height: 35px;
-    padding: 0%;
-    margin: -2px 0.5px;
-    display: inline-block;
+#canvas{
+    display: block;
+    margin: 50px 0 50px 50px;
 }
 
 #pie{
