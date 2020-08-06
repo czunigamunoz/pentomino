@@ -4,42 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        content="width=device-width, user-scalable=no, initial-scale=1">
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="css/styles.css">
     <title>Pentomino</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="java/lbpentomino.js"></script>
+    
 </head>
 
 <body>
-    <header>
-        <h1>Pentomino</h1>
-    </header>
-    <main id="contenido">
-        <aside id="menu">
-            <div id="bt_principales">
-                <button>Jugar</button>
-                <button>Reiniciar</button>
-                <button>Info</button>
-            </div>
-            <div id="bt_niveles">
-                <button id="0">Nivel 1</button>
-                <button id="1">Nivel 2</button>
-                <button id="2">Nivel 3</button>
-                <button id="3">Nivel 4</button>
-            </div>
-        </aside>
-        <div id="drophere"></div>
-        <canvas id="canvas" width="400" height="400"></canvas>
+    <main>
+        <div class="game">
+            <div id="drop-zone" class="drop-zone"></div>
+        </div>
+        <canvas id="canvas" class="canvas"></canvas>
     </main>
-    <footer id="pie">
-        <figure id="img_pie"><img src="img/daftpunk.png"></figure>
-        <ul id="lista_pie">
-            <li>Carlos Eduardo Zúñiga Muñoz</li>
-            <li>Ingenieria de Sistemas</li>
-            <li>Tercer Semestre</li>
-            <li>Semillero Grupo Desarrollo de Software</li>
-        </ul>
-    </footer>
+    <script src="java/lbpentomino.js"></script>
 </body>
 
 </html>

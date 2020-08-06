@@ -1,0 +1,33 @@
+:root{
+    --cube-width-js: 13;
+    --cube-height-js: 10;
+    --canvas-fig-cel: 5;
+    --cube-width: 40px;
+    --cube-heght: 40px;
+    --drop-zone-width: calc(var(--cube-width)*var(--cube-width-js));
+    --drop-zone-height: calc(var(--cube-heght)*var(--cube-height-js));
+    --canvas-fig: calc(var(--cube-width)*var(--canvas-fig-cel));
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.drop-zone > div{
+    background-color: grey;
+    width: var(--cube-width);
+    height: var(--cube-heght);
+}
+
+.drop-zone{
+    background-color: red;
+    width: var(--drop-zone-width);
+    height: var(--drop-zone-height);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.canvas{
+    width: var(--canvas-fig);
+    height: var(--canvas-fig);
+}
