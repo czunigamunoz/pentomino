@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+.game{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .drop-zone > div{
     background-color: grey;
     width: var(--cube-width);
